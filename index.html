@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+<title>IMC Calculadora</title>
+
+</head>
+<body>
+
+<h1>IMC Calculadora</h1>
+
+<form id="frm-imc" action="">
+	<fieldset>
+		<legend>IMC</legend>
+		
+		<label for="height">
+			Peso
+			<input id="height" type="number" />
+		</label>
+		
+		<label for="weight">
+			Altura
+			<input id="weight" type="number" />
+		</label>
+		
+		<input type="submit" value="Calculate" />
+		
+	</fieldset>
+</form>
+
+<fieldset>
+	<legend>Resultado</legend>
+	<span id="result">0.00</span>
+</fieldset>
+
+<script src="js/IMCService.js"></script>
+<script src="js/IMCController.js"></script>
+
+</body>
+</html>
